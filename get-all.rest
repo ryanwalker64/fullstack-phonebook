@@ -1,0 +1,24 @@
+GET http://localhost:3001/api/phonebook
+
+###
+
+GET http://localhost:3001/info
+
+###
+
+GET http://localhost:3001/api/phonebook/3
+
+###
+
+DELETE http://localhost:3001/api/phonebook/1
+
+
+###
+POST http://localhost:3001/api/phonebook
+content-type: application/json
+
+{
+    "name": "sample",
+    "number": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
+
